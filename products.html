@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Silver Screen - Movie Portal</title>
+	<link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/fixed.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+</head>
+
+<body>
+<!--- Start Navbar Section -->
+<section>
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-bg py-2 fixed-top">
+      <a class="navbar-brand greatVibes" href="index.html"><span class="primaryText greatVibes"><i
+            class="fas fa-video fa-2x"></i> Silver</span>Screen</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+      <div  class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#portfolios">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="products.html">Products &amp Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ContactUs.html" tabindex="-1" aria-disabled="true">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </section>
+<!--- End Navbar Section -->
+<!-- Container Starts -->
+<br><br><br><br>
+<div class="container">
+    <div class="section-header">          
+      <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">PRODUCTS &amp <span>SERVICES</span></h2>
+      <hr class="lines wow zoomIn" data-wow-delay="0.3s">
+      <p class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">Silver Screen, One Platform for Entertainment<br> Promises to Provide Wide Range of Movies for Entertainment</p>
+    </div>
+  </div>
+  <!-- Container Ends -->
+
+  <!-- carasoul -->
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <img src="assets/1.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="assets/2.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="assets/3.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+        <img src="assets/4.jpg" style="width:100%">
+      </div>
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+    </div>
+  </section>
+
+<!-- PORTFOLIO SECTION -->
+<h2>PORTFOLIO</h2>
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('adventure')"> Adventure</button>
+  <button class="btn" onclick="filterSelection('comedy')"> Comedy</button>
+  <button class="btn" onclick="filterSelection('horror')"> Horror</button>
+</div>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column adventure">
+    <div class=".content-prdcts">
+      <img src="assets/adv1.jpg" alt="Jumanji" style="width:100%">
+    </div>
+  </div>
+  <div class="column adventure">
+    <div class=".content-prdcts">
+      <img src="assets/adv2.jpg" alt="Beyond the Mask" style="width:100%">
+    </div>
+  </div>
+  <div class="column adventure">
+    <div class=".content-prdcts">
+      <img src="assets/adv3.jpg" alt="Lords of the rings" style="width:100%">
+    </div>
+  </div>
+
+  <div class="column comedy">
+    <div class=".content-prdcts">
+      <img src="assets/an1.jpg" alt="Aladdin" style="width:100%">
+    </div>
+  </div>
+  <div class="column comedy">
+    <div class=".content-prdcts">
+      <img src="assets/an2.jpg" alt="Nice Guy Finish Last" style="width:100%">
+    </div>
+  </div>
+  <div class="column comedy">
+    <div class=".content-prdcts">
+      <img src="assets/an3.jpg" alt="JungleBook" style="width:100%">
+    </div>
+  </div>
+
+  <div class="column horror">
+    <div class=".content-prdcts">
+      <img src="assets/h1.jpg" alt="NightMare" style="width:100%">
+    </div>
+  </div>
+  <div class="column horror">
+    <div class=".content-prdcts">
+      <img src="assets/h2.jpg" alt="Annabelle" style="width:100%">
+    </div>
+  </div>
+  <div class="column horror">
+    <div class=".content-prdcts">
+      <img src="assets/h3.png" alt="Insidious" style="width:100%">
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+<!--Footer Section-->
+<footer class="container-fluid">
+    <div class="row">
+    <div class="ml-4">
+      <a class="navbar-brand greatVibes" href="index.html"><span class="primaryText greatVibes"><i
+        class="fas fa-video fa-2x"></i><br> Silver</span>Screen</a>
+    </div>
+  
+    <div>
+      <p><a href="index.html">Home</a></p>
+      <p><a href="index.html#portfolios">About Us</a></p>
+      <p><a href="products.html"></a>Products &amp Services</a> </p>
+      <p><a href="ContactUs.html">Contact Us</a></p>
+    </div>
+  
+    <div>
+      <p>follow us:</p>
+      <p><a href="https://www.linkedin.com" target="blank"><i class="fab fa-linkedin fa-2x"></i> </a>&nbsp;
+         <a href="https://www.facebook.com" target="blank"><i class="fab fa-facebook-square fa-2x"></a></i> &nbsp;
+         <a href="https://www.instagram.com" target="blank"><i class="fab fa-instagram fa-2x"></a></i> 
+      </p>
+      <p>Privary-policy <br>
+        Cookies Privacy</p>
+    </div>
+  </div>
+  </footer>
+  <!--- Script Source Files -->
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+  <!--- End of Script Source Files -->
+  </body>
+  <script src="products.js"></script>
+  </html>

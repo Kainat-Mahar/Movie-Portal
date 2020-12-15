@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap');
+body{
+  overflow-x: hidden;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #505962;
+}
+/*============= NAVBAR SECTION =============*/
+.navbar{
+  background: rgba(0, 0, 0, 0.6);
+}
+.greatVibes{
+  font-family:  'Great Vibes', cursive;
+  font-size: 2rem;
+}
+.primaryText{
+color:silver;
+}
+.nav-item {
+   padding:0 0.4em 0 0.4em;
+   
+}
+
+/*============= VIDEO SECTION =============*/
+.video-background{
+  position: relative;
+  width: 100;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/*============= VIDEO CAPTION SECTION =============*/
+.caption{
+  position: absolute;
+  top: 38%;
+  width: 100%;
+  color: white;
+  text-transform: uppercase;
+  font-family:"Coda Caption";
+}
+.caption h1{
+  font-size: 4rem;
+  letter-spacing: .2rem;
+  text-shadow: .1rem .1rem .8rem black;
+  padding-bottom: 1rem;
+}
+.caption h6{
+  font-size: 2rem;
+  text-shadow: .1rem .1rem .5rem black;
+  padding-bottom: 1.6rem;
+}
+.btn-lg{
+  border-width: medium;
+  border-radius: 0.5;
+  font-size: 1.1rem;
+  padding: .6rem 1.3rem;
+}
+
+/*============= MAIN SECTION =============*/
+.col-md-8 {
+  margin: 2rem auto 8rem;
+  padding-top: 2rem;
+}
+.col-md-8 h1 {
+    font-size: 2.4rem;
+  }
+.btn-secondary {
+  border-width: medium;
+  border-radius: 0;
+  padding: .6rem 1.2rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin: 1rem;
+  border-color: #1EBBA3;
+  background-color: #1EBBA3;
+  color: white;
+}
+.btn-secondary:hover,
+.btn-secondary:focus {
+  border-color: #189582;
+  background-color: #189582;
+  color: white;
+}
+
+/*============= FOOTER SECTION =============*/
+footer{
+  background: #1e1529;
+  display: flex;
+  color: #fff;
+  padding: 0.8rem;
+}
+footer div{
+  flex:1;
+}
+footer div:nth-child(4){
+   text-align-last: right; 
+}
+
+/* ==========================================================================
+   About Section Style
+   ========================================================================== */
+   .section {
+    padding: 80px 0;
+  }
+  .section-header {
+    color: #fff;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .section-header .section-title {
+    font-size: 42px;
+    margin-top: 0;
+    text-transform: uppercase;
+    font-weight: 100;
+    color: #0d3559;
+    position: relative;
+  }
+  .section-header .section-title span {
+    color: #4676fa;
+  }
+  .section-header .section-subtitle {
+    margin-top: 15px;
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .section-header .lines {
+    margin: auto;
+    width: 70px;
+    position: relative;
+    border-top: 2px solid #346afe;
+    margin-top: 15px;
+  }
+  .section-header .lines:before {
+    position: absolute;
+    content: "";
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    top: -10px;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    background: #4676fa;
+    left: 27px;
+  }
+   #about {
+    position: relative;
+    background: #f2f2f2;
+  }
+/* ==========================================================================
+  Portfolio Section
+  ========================================================================== */
+#portfolios {
+ background: #f2f2f2;
+}
+#portfolios .mix {
+ padding: 10px;
+}
+#portfolios .portfolio-item .shot-item {
+ margin: 0px;
+}
+#portfolio-list .mix {
+ display: none;
+}
+.portfolio-item:hover .portfoli-content,
+.portfolio-item:hover .portfoli-content:before {
+ opacity: 1;
+ -webkit-transform: scale(1);
+ -moz-transform: scale(1);
+ -ms-transform: scale(1);
+ -o-transform: scale(1);
+ transform: scale(1);
+}
+.portfolio-item:hover .sup-title {
+ -webkit-transform: scale(1);
+ -moz-transform: scale(1);
+ -ms-transform: scale(1);
+ -o-transform: scale(1);
+ transform: scale(1);
+ opacity: 1;
+}
+.portfolio-item:hover .sup-description {
+ opacity: 1;
+ -webkit-transform: translateY(0px);
+ transform: translateY(0px);
+}
+/* ==========================================================================
+  Table Section
+  ========================================================================== */
+.table{
+  width: 100%;
+  border-collapse: collapse;
+  border: none;
+}
+.table th{
+  font-size: 4rem;
+  font-weight: bold;
+}
+.table td, .table th{
+  padding: 12px 15px;
+  border: 1 solid #ddd;
+  text-align: center;
+  font-size: 16px;
+}
+.table tbody tr:nth-child(even){
+  background-color: #f5f5f5;
+}
+@media (max-width:768px){
+  .caption h1{
+    font-size: 1.4rem;
+    letter-spacing: .15rem;
+    padding-bottom: .5rem;
+  }
+  .caption h6{
+    font-size: 1.1rem;
+    padding-bottom: 1.2rem;
+  }
+  .btn-lg{
+    font-size: 1rem;
+    padding: .5rem 1rem;
+  }
+  .col-md-8 h1 {
+    font-size: 1.7rem;
+  }
+  .table, .table tbody, .table tr, .table td{
+    display: block;
+    width: 100%;
+  }
+  .table tr{
+    margin-bottom: 15px;
+  }
+  .table td{
+    text-align: center;
+    position: relative;
+  }
+}
+
+/* ==========================================================================
+  Carrousel Section
+  ========================================================================== */
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active {
+  background-color: #717171;
+}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+/* ==========================================================================
+  Portfolio Section
+  ========================================================================== */
+.row {
+  margin: 8px -16px;
+}
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide columns by default */
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content-prdcts {
+  background-color: white;
+  padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+/* Add a grey background color on mouse-over */
+.btn:hover {
+  background-color: #ddd;
+}
+
+/* Add a dark background color to the active button */
+.btn.active {
+  background-color: #666;
+   color: white;
+}
